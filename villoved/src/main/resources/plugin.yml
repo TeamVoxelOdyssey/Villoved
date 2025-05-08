@@ -1,0 +1,4 @@
+name: Villoved
+version: '1.0.0'
+main: com.guy7cc.villoved.Villoved
+api-version: '1.21'

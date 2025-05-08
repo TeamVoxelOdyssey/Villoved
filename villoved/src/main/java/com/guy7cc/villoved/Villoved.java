@@ -1,0 +1,33 @@
+/*
+ * Copyright (C) 2025 TeamVoxelOdyssey
+ *
+ * This file is part of Villoved.
+ *
+ * Villoved is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Villoved is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Villoved. If not, see <https://www.gnu.org/licenses/>.
+ */
+package com.guy7cc.villoved;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Villoved extends JavaPlugin {
+    @Override
+    public void onLoad(){
+
+    }
+
+    @Override
+    public void onEnable(){
+        getLogger().info("hi");
+    }
+}
